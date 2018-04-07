@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace GreatShot.UI
@@ -8,18 +9,16 @@ namespace GreatShot.UI
         [STAThread]
         static void Main()
         {
-            try
-            {
-                Application.EnableVisualStyles();
-                Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new MainForm());
-            }
-            catch (Exception ex)
-            {
-                Error error = new Error(ex);
-                error.ShowDialog();
-            }
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.ThreadException += ApplicationOnThreadException;
+            Application.Run(new MainForm());
+        }
 
+        private static void ApplicationOnThreadException(object sender, ThreadExceptionEventArgs threadExceptionEventArgs)
+        {
+            Error error = new Error(threadExceptionEventArgs.Exception);
+            error.ShowDialog();
         }
     }
 }
