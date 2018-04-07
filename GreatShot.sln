@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Settings.StyleCop = Settings.StyleCop
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatShot", "GreatShot\GreatShot.csproj", "{068A1D50-4CE2-4769-87E9-CBB98605C436}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatShot", "src\GreatShot\GreatShot.csproj", "{068A1D50-4CE2-4769-87E9-CBB98605C436}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatShot.Data", "GreatShot.Data\GreatShot.Data.csproj", "{A16F6708-97FD-44FA-9097-D9B15E85939F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatShot.Data", "src\GreatShot.Data\GreatShot.Data.csproj", "{A16F6708-97FD-44FA-9097-D9B15E85939F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
