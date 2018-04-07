@@ -16,5 +16,5 @@ Initially developed in Visual Studio 2008 with Mercurial as SCM. Later with TFS 
 
 ## Technologies
 
-- Visual Studio 201
+- Visual Studio 2010
 - .NET Framework 4.0
