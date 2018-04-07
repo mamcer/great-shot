@@ -1,4 +1,4 @@
-﻿namespace GreatShot
+﻿namespace GreatShot.UI
 {
     partial class MainForm
     {
@@ -205,7 +205,7 @@
             this.btnOpenFolder.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.btnOpenFolder.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenFolder.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnOpenFolder.Image = global::GreatShot.Properties.Resources.folder_closed;
+            this.btnOpenFolder.Image = global::GreatShot.UI.Properties.Resources.folder_closed;
             this.btnOpenFolder.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnOpenFolder.Margin = new System.Windows.Forms.Padding(2, 1, 0, 2);
             this.btnOpenFolder.Name = "btnOpenFolder";
@@ -245,7 +245,7 @@
             this.btnNextImage.Enabled = false;
             this.btnNextImage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNextImage.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnNextImage.Image = global::GreatShot.Properties.Resources.great_shot;
+            this.btnNextImage.Image = global::GreatShot.UI.Properties.Resources.great_shot;
             this.btnNextImage.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnNextImage.Name = "btnNextImage";
             this.btnNextImage.Size = new System.Drawing.Size(30, 32);
@@ -259,7 +259,7 @@
             this.btnCopyImage.Enabled = false;
             this.btnCopyImage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCopyImage.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnCopyImage.Image = global::GreatShot.Properties.Resources.floppy;
+            this.btnCopyImage.Image = global::GreatShot.UI.Properties.Resources.floppy;
             this.btnCopyImage.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnCopyImage.Name = "btnCopyImage";
             this.btnCopyImage.Size = new System.Drawing.Size(24, 32);
@@ -273,7 +273,7 @@
             this.btnOpenDestinationFolder.Enabled = false;
             this.btnOpenDestinationFolder.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenDestinationFolder.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnOpenDestinationFolder.Image = global::GreatShot.Properties.Resources.folder_favorites;
+            this.btnOpenDestinationFolder.Image = global::GreatShot.UI.Properties.Resources.folder_favorites;
             this.btnOpenDestinationFolder.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnOpenDestinationFolder.Name = "btnOpenDestinationFolder";
             this.btnOpenDestinationFolder.Size = new System.Drawing.Size(24, 32);
@@ -287,7 +287,7 @@
             this.btnDeleteImage.Enabled = false;
             this.btnDeleteImage.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDeleteImage.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnDeleteImage.Image = global::GreatShot.Properties.Resources.recyclebin_full;
+            this.btnDeleteImage.Image = global::GreatShot.UI.Properties.Resources.recyclebin_full;
             this.btnDeleteImage.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnDeleteImage.Name = "btnDeleteImage";
             this.btnDeleteImage.Size = new System.Drawing.Size(24, 32);
@@ -393,8 +393,8 @@
             // imgGreatShot
             // 
             this.imgGreatShot.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.imgGreatShot.Image = global::GreatShot.Properties.Resources.favorites;
-            this.imgGreatShot.InitialImage = global::GreatShot.Properties.Resources.favorites;
+            this.imgGreatShot.Image = global::GreatShot.UI.Properties.Resources.favorites;
+            this.imgGreatShot.InitialImage = global::GreatShot.UI.Properties.Resources.favorites;
             this.imgGreatShot.Location = new System.Drawing.Point(2, 491);
             this.imgGreatShot.Name = "imgGreatShot";
             this.imgGreatShot.Size = new System.Drawing.Size(34, 39);

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7E334988-13D0-4514-AA06-9073337D4269}"
 	ProjectSection(SolutionItems) = preProject
@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Settings.StyleCop = Settings.StyleCop
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatShot", "src\GreatShot\GreatShot.csproj", "{068A1D50-4CE2-4769-87E9-CBB98605C436}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatShot.UI", "src\GreatShot\GreatShot.UI.csproj", "{068A1D50-4CE2-4769-87E9-CBB98605C436}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreatShot.Data", "src\GreatShot.Data\GreatShot.Data.csproj", "{A16F6708-97FD-44FA-9097-D9B15E85939F}"
 EndProject
@@ -46,5 +46,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {141A2BEE-8FA3-42DF-9F86-E040A4B8B543}
 	EndGlobalSection
 EndGlobal

@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-using GreatShot.Properties;
+using GreatShot.UI.Properties;
+using GreatShot.UI.Properties;
 
-namespace GreatShot
+namespace GreatShot.UI
 {
     public partial class CreateFolder : Form
     {

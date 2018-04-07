@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Windows.Forms;
 
-namespace GreatShot
+namespace GreatShot.UI
 {
     public partial class GotoPicture : Form
     {

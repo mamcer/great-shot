@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace GreatShot
+namespace GreatShot.UI
 {
     public static class Program
     {

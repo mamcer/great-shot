@@ -3,7 +3,7 @@ using System.Diagnostics;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace GreatShot
+namespace GreatShot.UI
 {
     public partial class Help : Form
     {

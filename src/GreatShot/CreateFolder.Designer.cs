@@ -1,4 +1,4 @@
-﻿namespace GreatShot
+﻿namespace GreatShot.UI
 {
     partial class CreateFolder
     {

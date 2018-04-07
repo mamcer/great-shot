@@ -7,9 +7,9 @@ using System.IO;
 using System.Windows.Forms;
 
 using GreatShot.Data;
-using GreatShot.Properties;
+using GreatShot.UI.Properties;
 
-namespace GreatShot
+namespace GreatShot.UI
 {
     public partial class MainForm : Form
     {
