@@ -4,6 +4,8 @@ A .NET Winforms application from 2010
 
 In `original` branch you will find the original source code for this application. In `master` an upgraded, refactored version.
 
+> More details about why I published this project in [this blog post](https://mamcer.github.io/2018-09-02-i-cleaned-up-my-virtual-basement/)
+
 ## Description
 
 A simple image visualizer that helps you select your best pictures. 
